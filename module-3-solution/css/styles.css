@@ -1,0 +1,100 @@
+body{
+	font-size: 16px;
+	color: #fff;
+	background-color: #F0F8FF;
+	font-family: 'Oxygen', sans-serif;
+}
+
+/****  HEADER  ****/
+
+#header-nav{
+	background-color: #FF8C00;
+	border-radius: 0;
+	border: 0;
+	padding-bottom: 30px;
+}
+
+.navbar-brand{
+	padding-top: 30px;
+}
+
+.navbar-brand h1{
+	font-family: 'Lora', serif;
+	color: #557c3e;
+	font-size: 2em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+	margin-left: 30px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+h1{
+	text-align: center;
+	font-family: cursive;
+	color: #000000;
+	font-weight: bold;
+}
+
+#main-div, #main-div1, #main-div2{
+	background-color: #A9A9A9;
+	margin-top: 40px;
+	color: #000000;
+	font-family: 'Fredoka One', cursive;
+	padding: 25px;
+	width: 95%;
+}
+
+#main-div > h2, #main-div1 > h2, #main-div2 > h2{
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#nav-list {
+  margin-top: 20px;
+}
+#nav-list a {
+  padding: 20px;
+  color: #951C49;
+  text-align: center;
+  font-weight: bold;
+  font-size: 28px;
+  font-family: 'Lora', serif;  
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -25px;
+}
+
+@media (max-width: 767px){
+	#main-div{
+		width: 80%;
+	}
+
+	#main-div1{
+		width: 80%;
+	}
+
+	#main-div2{
+		width: 80%;
+	}
+}
+
+@media (min-width: 768px){
+	#collapsable-nav, ul, li{
+		display: none;
+	}
+}
